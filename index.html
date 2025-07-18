@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>StarScope</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="cursor.css" />
+        <script src="cursor.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="logo" data-aos="fade-right">StarScope</div>
+            <nav class="nav" data-aos="fade-left">
+                <a href="#home">Home</a>
+                <a href="#missions">Missions</a>
+                <a href="#planets">Planets</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- MAIN CONTENT AREA -->
+        <main class="main-content">
+            <section id="home" class="hero-section" data-aos="fade-up">
+                <h1>Explore the Cosmos</h1>
+                <p>Journey through the wonders of the universe with StarScope.</p>
+                <a href="#missions" class="btn">Discover Missions</a>
+                <a href="#planets" class="btn outline">View Planets</a>
+            </section>
+
+            <section id="missions" class="content-section" data-aos="fade-up">
+                <h2>Our Missions</h2>
+                <p>Delve into the groundbreaking expeditions that push the boundaries of human exploration.</p>
+                <!-- Placeholder for mission details -->
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Mars Rover</h3>
+                        <p>Exploring the red planet's surface.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Voyager Interstellar</h3>
+                        <p>Journeying beyond our solar system.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="planets" class="content-section" data-aos="fade-up">
+                <h2>Planets of Our System</h2>
+                <p>Learn about the diverse worlds orbiting our sun.</p>
+                <!-- Placeholder for planet details -->
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Earth</h3>
+                        <p>Our home planet.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Jupiter</h3>
+                        <p>The giant gas planet.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="gallery" class="content-section" data-aos="fade-up">
+                <h2>Cosmic Gallery</h2>
+                <p>Stunning images from across the galaxy.</p>
+                <!-- Placeholder for gallery images -->
+                <div class="gallery-grid">
+                    <img src="https://placehold.co/400x300/0b0c1a/ffffff?text=Galaxy" alt="Galaxy" class="gallery-item">
+                    <img src="https://placehold.co/400x300/0b0c1a/ffffff?text=Nebula" alt="Nebula" class="gallery-item">
+                    <img src="https://placehold.co/400x300/0b0c1a/ffffff?text=Planet" alt="Planet" class="gallery-item">
+                </div>
+            </section>
+
+            <section id="contact" class="content-section" data-aos="fade-up">
+                <h2>Contact Us</h2>
+                <p>Reach out to the StarScope team.</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>&copy; 2024 StarScope. All rights reserved.</p>
+        </footer>
+
+        <!-- AOS Initialization Script -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000,
+                once: true,
+            });
+        </script>
+    </body>
+</html>
