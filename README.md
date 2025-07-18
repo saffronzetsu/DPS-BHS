@@ -2,6 +2,8 @@
 
 StarScope Tours is an interactive stargazing website that allows users to explore curated on-site astronomical tours, visualize the solar system in real-time, and contact the organizers directly through a built-in contact form. Built for space enthusiasts, families, and astrophotography lovers alike.
 
+https://gamma.app/docs/StarScope-Unveiling-the-Universe-7jyakem5zs2pkjj?mode=doc
+
 ---
 
 ## 🚀 Features
